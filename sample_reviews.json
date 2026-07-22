@@ -1,0 +1,32 @@
+[
+  {
+    "id": "text_001",
+    "modality": "text",
+    "prompt": "Summarize the article in exactly three bullet points.",
+    "output_summary": "The model produced a summary but used four bullets and added an unsupported claim.",
+    "instruction_following": "partial",
+    "reference_preservation": "partial",
+    "issues": ["wrong format", "unsupported detail"],
+    "final_decision": "reject"
+  },
+  {
+    "id": "image_001",
+    "modality": "image",
+    "prompt": "Generate a red bicycle parked near a blue mailbox in a rainy city street.",
+    "output_summary": "The image contains the bicycle and street scene, but the mailbox is missing and the weather appears clear.",
+    "instruction_following": "partial",
+    "reference_preservation": "not_applicable",
+    "issues": ["missed object", "style mismatch"],
+    "final_decision": "reject"
+  },
+  {
+    "id": "audio_001",
+    "modality": "audio",
+    "prompt": "Read the script in a calm and professional tone.",
+    "output_summary": "Speech is clear and accurate, but the tone sounds rushed and overly upbeat.",
+    "instruction_following": "partial",
+    "reference_preservation": "good",
+    "issues": ["tone mismatch"],
+    "final_decision": "minor_issues"
+  }
+]
