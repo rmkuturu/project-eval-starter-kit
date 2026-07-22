@@ -1,6 +1,6 @@
 # Multimodal AI Evaluation Starter Kit
 
-This repository is a compact starter kit for multimodal AI evaluation across text, image, audio, and video. It is designed to reflect the type of careful review and annotation work needed for projects like Project Hedgehog on the Handshake AI Fellowship platform.
+This repository is a compact starter kit for multimodal AI evaluation across text, image, audio, and video. It is designed to reflect the type of careful review and annotation work needed for eval projects.
 
 ## What This Project Demonstrates
 
